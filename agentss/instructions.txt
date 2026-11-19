@@ -1,0 +1,8 @@
+﻿1. Create environment:   py -m venv agents   (or: python -m venv agents)
+2. Activate:             agents\Scripts\activate
+3. Install packages:     pip install -r requirements.txt
+4. Run the app:          streamlit run drl.py
+   If it fails:          python -m streamlit run drl.py
+5. Paste your OpenRouter API key (sk-or-v1-...) in the sidebar.
+6. Create a system by uploading a CSV with columns: Role, Instructions
+7. Deactivate:           deactivate
